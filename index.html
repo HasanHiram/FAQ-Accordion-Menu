@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+          var count = 0;
+          $(".ok_isareti").click(function() {
+            count++;
+            var degree=180 * count;
+            $(this).css("transform", "rotate(" + degree + "deg)");
+            jQuery(this).next("#sorular_cevaplar dd").slideToggle(600);
+            })
+        });
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon-32x32.png">
+    <title>FAQ</title>
+  </head>
+  <body>
+
+    <div class="FAQ">
+      <img class="et_isareti" src="images/illustration-box-desktop.svg" alt="">
+      <img class="woman" src="images/illustration-woman-online-desktop.svg" alt="">
+      <img class="woman_mobile" src="images/illustration-woman-online-mobile.svg" alt="">
+      <img class="golge_mobile" src="images/bg-pattern-mobile.svg" alt="">
+      <div class="yazilar">
+          <h1>FAQ</h1>
+          <dl id="sorular_cevaplar">
+              <dt>How many team members can I invite?</dt>
+              <img class="ok_isareti" src="images/icon-arrow-down.svg" alt="">
+              <dd>No more than 2 GB. All files in your account must fit your allotted storage space</dd>
+              <hr>
+              <dt>What is the maximum file upload size?</dt>
+              <img class="ok_isareti" src="images/icon-arrow-down.svg" alt="">
+              <dd>No more than 2 GB. All files in your account must fit your allotted storage space</dd>
+              <hr>
+              <dt>How do I reset my password?</dt>
+              <img class="ok_isareti" src="images/icon-arrow-down.svg" alt="">
+              <dd>No more than 2 GB. All files in your account must fit your allotted storage space</dd>
+              <hr>
+              <dt>Can I cancel my subscription?</dt>
+              <img class="ok_isareti" src="images/icon-arrow-down.svg" alt="">
+              <dd>No more than 2 GB. All files in your account must fit your allotted storage space</dd>
+              <hr>
+              <dt>Do you provide additional support?</dt>
+              <img class="ok_isareti" src="images/icon-arrow-down.svg" alt="">
+              <dd>No more than 2 GB. All files in your account must fit your allotted storage space</dd>
+              <hr>
+          </dl>
+      </div>
+    </div>
+
+
+  </body>
+</html>
