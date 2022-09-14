@@ -1,6 +1,5 @@
-FAQ Accordion Card Design Challenge 
+FAQ Accordion Card Design Challenge for Frontendmentor.io
 
-Frontendmentor.io
 
 I just used HTML5&CSS3 and JQuery.
 
